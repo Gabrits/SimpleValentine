@@ -1,42 +1,60 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 360px;
-    height: auto;
-    margin: 0 auto;
-    background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5e2c8;
+  margin: 0;
 }
 
-.fotoCasal {
-    margin: auto;
-    margin-top: 40px;
-    width: 330px;
-    height: 330px;
-    background-color: white;
-    border-radius: 15px;
+.containerGeral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  width: 100%;
+}
+
+.fotoCasal img {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 330px;
+  height: 330px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 10px #d7b08c;
 }
 
 .divisoria {
-  width: 320px;
-  height: 1.4px;
-  background-color: gray;
-  margin: 30px;
+  height: 1px;
+  width: 300px;
+  background-color: #d7b08c;
   border-radius: 20px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.textinho h1{
-    font-family: "Quicksand", sans-serif;
-    font-size: 28px;
-    text-align: center;
-    font-weight: bold;
+.textinho {
+  max-width: 330px;
 }
 
-.textinho p{
-    font-family: "Quicksand", sans-serif;
-    font-size: 18px;
-    text-align: center;
+.textinho h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: #a35d5d;
+}
+
+.textinho p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #4b3225;
 }
 
 .musica {
+  margin: 30px;
+  max-width: 330px;
 }
