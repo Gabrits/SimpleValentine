@@ -1,7 +1,9 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 360px;
+    height: auto;
     margin: 0 auto;
     background-color: bisque;
 }
@@ -9,17 +11,17 @@ body {
 .fotoCasal {
     margin: auto;
     margin-top: 40px;
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     background-color: white;
     border-radius: 15px;
 }
 
 .divisoria {
-  width: 90%;
-  height: 1px;
+  width: 320px;
+  height: 1.4px;
   background-color: gray;
-  margin: 30px 0;
+  margin: 30px;
   border-radius: 20px;
 }
 
@@ -34,4 +36,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 18px;
     text-align: center;
+}
+
+.musica {
 }
